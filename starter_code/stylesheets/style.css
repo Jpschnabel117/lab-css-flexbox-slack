@@ -8,21 +8,25 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
-nav {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 100%;
-  position: fixed;
-}
-#navdiv1 {
-  width: 10%;
-}
 @media (max-width: 768px) {
   nav > div > ul {
     visibility: hidden;
     width: 0px;
   }
+  body {
+    margin: 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+  }
+  #navdiv1 {
+    width: 10%;
+  }
+
   nav {
     /* display: flex;
     flex-direction: row;
@@ -52,9 +56,7 @@ nav {
     background-color: #540b51;
     border: none;
   }
-  .bigimages {
-    width: 20rem;
-  }
+  
   #headerdiv1 {
     background-color: #540b51;
     color: white;
@@ -66,5 +68,85 @@ nav {
   #headerdiv1 > h1 {
     width: 100%;
     font-size: 3rem;
+    margin-top: 106px;
   }
+  #headerdiv1 > p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;;
+  }
+  #headerDiv2 {
+    display: flex;
+    flex-direction: column;
+
 }
+.googlelogo{
+    width: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0.5rem;
+
+
+}
+.google-button {
+    background-color: #4285F4;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailButton {
+    background-color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+}
+.bigimagesHero {
+    width: 120%;
+}
+.imageDiv{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-top: 0;
+
+}
+
+.Airbnb {
+    width: 12rem;;
+}
+.Nasa {
+    width: 5rem;
+}
+.Uber {
+    width: 7rem;
+}
+.Target {
+    width: 4rem;
+}
+.tnyt {
+    width: 17rem;
+}
+.spotify {
+    width: 10rem;
+}
+.section1 {
+background-color: #F3EAE2;
+margin: 0;
+}
+
+.section1 p {
+    color: black;
+    text-align: center;
+    margin-top: 0;
+}
+}
+
+
